@@ -1,0 +1,67 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto-regular;
+    font-size: 14px;
+}
+h1{
+    font-size: 4em;
+    font-family: roboto-Black;
+    padding-top: 30px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.vide{
+    background-color: aqua;
+    padding: 0 100px;
+    margin:0 100px;
+    height: 600px;
+}
+nav{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+}
+.fond {
+    background-color: #000;
+    background-size: cover;
+    height: 600px;
+    padding: 20px;
+
+}
+.fond1{
+    background-image: url(../assets/images/PLAGEBASTI.webp);
+    background-size: cover;
+    height: 70%;
+    padding-top: 20px;
+}
+@font-face{
+    font-family: roboto-thin;
+    src: url(./asset/fonts/roboto/Roboto-Thin.ttf);
+}
+@font-face{
+    font-family: roboto-light;
+    src: url(./asset/fonts/roboto/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: roboto-regular;
+    src: url(./asset/fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: roboto-medium;
+    src: url(./asset/fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: roboto-bold;
+    src: url(./asset/fonts/roboto/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: roboto-black;
+    src: url(./asset/fonts/roboto/Roboto-Black.ttf);
+}
+
+
+
